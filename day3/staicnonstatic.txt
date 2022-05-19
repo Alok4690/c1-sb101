@@ -1,0 +1,6 @@
+Problem: What is the difference between the static and the non-static variables of a class explain it with an example?
+sol:
+     1>Static variables are shared among all instances of a class. Non static variables are specific to that instance of a class.
+     2>Static variable is like a global variable and is available to all methods. Non static variable is like a local variable and they can be accessed through only instance of a class.
+     3>Static variables can be accessed using class name.Non static variables can be accessed using instance of a class.
+     4>Static variables can be accessed by static and non static methods.Non static variables cannot be accessed inside a static method.
