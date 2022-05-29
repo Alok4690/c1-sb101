@@ -1,0 +1,4 @@
+Question2:  Explain ClassCastException with the help of the example.
+
+sol:ClassCast Exception in Java is one of the unchecked exceptions that occur when we try to convert one class type object into another class type.
+    ClassCast Exception is thrown when we try to cast an object of the parent class to the child class object.
