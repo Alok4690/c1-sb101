@@ -1,0 +1,25 @@
+Q3) Explain abstract class and interface with an example.
+
+sol:  Abstract class---------
+
+      1>Abstract class is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).
+      2>Abstract class is use to achieve Abstraction
+        ex-- abstract class Animal {
+                public abstract void animalSound();
+                      public void sleep() {
+                      System.out.println("Zzz");
+                 }
+              }
+              
+              
+       Interface----------
+       
+       An interface is a reference type in Java. It is similar to class.
+       It is a collection of abstract methods. A class implements an interface, thereby inheriting the abstract methods of the interface. 
+       Along with abstract methods, an interface may also contain constants, default methods, static methods, and nested types.
+       Method bodies exist only for default methods and static methods. 
+       
+       for ex-       interface Animal {
+                        public void eat();
+                        public void travel(); 
+                     }     
